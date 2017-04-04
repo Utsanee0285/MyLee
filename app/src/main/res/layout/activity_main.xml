@@ -5,7 +5,17 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/sririwattana"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <LinearLayout
+        android:layout_centerInParent="true"
+        android:padding="@dimen/h2"
+        android:layout_margin="@dimen/margin"
+        android:background="#86ffffff"
         android:layout_marginTop="@dimen/margin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,8 +77,25 @@
 
         </LinearLayout>
 
+        <TextView
+
+            android:textStyle="bold"
+            android:textColor="#f90a0a"
+            android:textSize="@dimen/h2"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/new_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
+
+
+    <Button
+
+        android:text="@string/login"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>
