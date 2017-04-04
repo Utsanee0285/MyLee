@@ -51,6 +51,7 @@
                 android:src="@mipmap/ic_users" />
 
             <EditText
+                android:id="@+id/edtUser"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="user" />
@@ -71,6 +72,7 @@
                 android:src="@mipmap/ic_password" />
 
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="password" />
@@ -78,7 +80,7 @@
         </LinearLayout>
 
         <TextView
-
+            android:id="@+id/edtRegister"
             android:textStyle="bold"
             android:textColor="#f90a0a"
             android:textSize="@dimen/h2"
