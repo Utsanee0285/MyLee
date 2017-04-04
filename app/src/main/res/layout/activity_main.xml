@@ -80,7 +80,7 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/edtRegister"
+            android:id="@+id/txtRegister"
             android:textStyle="bold"
             android:textColor="#f90a0a"
             android:textSize="@dimen/h2"
@@ -93,7 +93,7 @@
 
 
     <Button
-
+        android:id="@+id/btnLogin"
         android:text="@string/login"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
