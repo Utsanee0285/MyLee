@@ -80,6 +80,7 @@
         </LinearLayout>
 
         <TextView
+            android:clickable="true"
             android:id="@+id/txtRegister"
             android:textStyle="bold"
             android:textColor="#f90a0a"
